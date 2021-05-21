@@ -1,4 +1,5 @@
 const MyMessage = (message) => {
+  console.log(message.text);
   if (message?.attachment?.length > 0) {
     <img
       src={message.attachment[0].file}

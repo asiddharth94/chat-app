@@ -3,8 +3,6 @@ import MyMessage from "./MyMessage";
 import ReplyMessage from "./ReplyMessage";
 
 const ChatFeed = (props) => {
-  console.log("feed->", props);
-
   const { chats, activeChat, userName, messages } = props;
 
   const chat = chats && chats[activeChat];
